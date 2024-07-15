@@ -228,7 +228,7 @@ const Dashboard = () =>{
                     </div>
                     <div className={styles.Name}>
                       <div className={styles.Valuefont}>
-                        이승준
+                        최영찬
                       </div>
                     </div>
                     <div className={styles.Cha}>
@@ -252,7 +252,7 @@ const Dashboard = () =>{
                     </div>
                     <div className={styles.Name}>
                       <div className={styles.Valuefont}>
-                        이승준
+                        최영찬
                       </div>
                     </div>
                     <div className={styles.Cha}>
@@ -438,12 +438,30 @@ const Dashboard = () =>{
             </div>
             <div className={styles.NoticeCategory5}>
               <div className={styles.ContentState_B}>
-                <div className={styles.B_Font}>진행중</div>
+                <div className={styles.B_Font}>해결됨</div>
               </div>
             </div>
           </div>
           {/* 내용 한 덩어리 */}
-          
+          <div className={styles.NoticeContent}>
+            <div className={styles.NoticeCategory1}>
+              <div className={styles.NoticeContentFont}>[공지] 서버 배포 </div>
+            </div>
+            <div className={styles.NoticeCategory2}>
+              <div className={styles.NoticeContentFont}>최영찬</div>
+            </div>
+            <div className={styles.NoticeCategory3}>
+              <div className={styles.NoticeContentFont}>일반</div>
+            </div>
+            <div className={styles.NoticeCategory4}>
+              <div className={styles.NoticeContentFont}>24-07-16 02:41 AM</div>
+            </div>
+            <div className={styles.NoticeCategory5}>
+              <div className={styles.ContentState_B}>
+                <div className={styles.B_Font}>진행중</div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
